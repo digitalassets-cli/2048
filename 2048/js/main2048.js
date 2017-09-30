@@ -335,7 +335,7 @@ document.addEventListener("touchend",function(event){
 
 	var gapX=endX-startX;
 	var gapY=endY-startY;
-	if(Math.abs(gapX)<0.3*documentWidth && Math.abs(gapY)<0.3*documentWidth){
+	if(Math.abs(gapX)<0.1*documentWidth && Math.abs(gapY)<0.1*documentWidth){
 		return;
 	}
 
